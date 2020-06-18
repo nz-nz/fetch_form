@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#root div {
+  margin: 20px;
+}
+
+.input_div, .btn, .postFrame .postElem, .postFrame {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #352E8F;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn, .postFrame .postElem, .postFrame {
+  transition: 500ms;
+  border: solid 2px #F28401;
+  background-color: white;
+  color: black;
+}
+.btn p, .postFrame .postElem p, .postFrame p {
+  margin: 5px 20px 20px 20px;
+}
+
+.input_div_label {
+  margin: 5px 20px 20px 20px;
+}
+
+.input_div_input {
+  height: 35px;
+  border: solid 2px #352E8F;
+  border-radius: 0 0 5px 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.active {
+  color: white;
+  background-color: #F28401;
+  cursor: pointer;
+}
+
+.active:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.postFrame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  width: 270px;
+}
+.postFrame .postElem {
+  margin: 2px;
+}
+.postFrame p {
+  padding: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */
